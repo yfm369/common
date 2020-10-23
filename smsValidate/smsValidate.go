@@ -16,7 +16,7 @@ const (
 	ALI_TEMPLATE   = "SMS_186966122"
 	DUMP_SIGNNAME  = "云牧网耕"
 	DUMP_TEMPLATE  = "SMS_189713630"
-	add_test 	   = "789"
+	add_test 	     = "789"
 )
 
 func SendBatchSms(phones string) {
