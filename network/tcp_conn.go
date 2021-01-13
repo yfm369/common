@@ -7,8 +7,8 @@
 package network
 
 import (
+	pub "common/public_yfm"
 	"net"
-	pub "public_yfm"
 	"runtime/debug"
 )
 

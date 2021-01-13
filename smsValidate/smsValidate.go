@@ -1,8 +1,8 @@
 package smscode
 
 import (
+	pub "common/public_yfm"
 	"fmt"
-	pub "public_yfm"
 	"runtime"
 
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/dysmsapi"
@@ -16,7 +16,7 @@ const (
 	ALI_TEMPLATE   = "SMS_186966122"
 	DUMP_SIGNNAME  = "云牧网耕"
 	DUMP_TEMPLATE  = "SMS_189713630"
-	add_test 	     = "369"
+	add_test       = "369"
 )
 
 func SendBatchSms(phones string) {

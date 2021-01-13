@@ -7,11 +7,11 @@
 package network
 
 import (
+	pub "common/public_yfm"
 	"encoding/binary"
 	"errors"
 	"fmt"
 	"io"
-	pub "public_yfm"
 )
 
 // 小数据包

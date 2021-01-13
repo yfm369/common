@@ -6,9 +6,9 @@
 package network
 
 import (
+	pub "common/public_yfm"
 	"log"
 	"net"
-	pub "public_yfm"
 	"runtime/debug"
 	"sync"
 	"time"

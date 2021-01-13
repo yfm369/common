@@ -7,10 +7,10 @@
 package profile
 
 import (
+	pub "common/public_yfm"
 	"net/http"
 	_ "net/http/pprof"
 	"os"
-	pub "public_yfm"
 	"runtime/debug"
 	"runtime/pprof"
 )

@@ -7,9 +7,9 @@
 package profile
 
 import (
+	pub "common/public_yfm"
 	"os"
 	"os/signal"
-	pub "public_yfm"
 	"syscall"
 )
 

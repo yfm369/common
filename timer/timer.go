@@ -7,7 +7,7 @@
 package timer
 
 import (
-	pub "public_yfm"
+	pub "common/public_yfm"
 	"runtime/debug"
 	"time"
 )

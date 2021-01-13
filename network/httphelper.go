@@ -1,10 +1,10 @@
 package network
 
 import (
+	pub "common/public_yfm"
 	"io"
 	"io/ioutil"
 	"net/http"
-	pub "public_yfm"
 	"runtime/debug"
 	"time"
 )
