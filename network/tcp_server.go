@@ -6,12 +6,13 @@
 package network
 
 import (
-	pub "common/public_yfm"
 	"log"
 	"net"
 	"runtime/debug"
 	"sync"
 	"time"
+
+	pub "github.com/yfm369/common/public_yfm"
 )
 
 const (

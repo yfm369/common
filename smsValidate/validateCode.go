@@ -4,12 +4,12 @@ import (
 	"db"
 	"fmt"
 	"math/rand"
-	pub "public_yfm"
 	"strings"
 	"time"
 
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/dysmsapi"
 	"github.com/gomodule/redigo/redis"
+	pub "github.com/yfm369/common/public_yfm"
 )
 
 const (

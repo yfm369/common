@@ -7,8 +7,9 @@
 package network
 
 import (
-	pub "common/public_yfm"
 	"time"
+
+	pub "github.com/yfm369/common/public_yfm"
 
 	"github.com/gorilla/websocket"
 )

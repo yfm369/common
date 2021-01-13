@@ -7,9 +7,10 @@
 package timer
 
 import (
-	pub "common/public_yfm"
 	"runtime/debug"
 	"time"
+
+	pub "github.com/yfm369/common/public_yfm"
 )
 
 const (

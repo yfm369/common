@@ -7,9 +7,10 @@
 package network
 
 import (
-	pub "common/public_yfm"
 	"net"
 	"runtime/debug"
+
+	pub "github.com/yfm369/common/public_yfm"
 )
 
 type TcpConn struct {

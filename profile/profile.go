@@ -7,12 +7,13 @@
 package profile
 
 import (
-	pub "common/public_yfm"
 	"net/http"
 	_ "net/http/pprof"
 	"os"
 	"runtime/debug"
 	"runtime/pprof"
+
+	pub "github.com/yfm369/common/public_yfm"
 )
 
 const (

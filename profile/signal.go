@@ -7,10 +7,11 @@
 package profile
 
 import (
-	pub "common/public_yfm"
 	"os"
 	"os/signal"
 	"syscall"
+
+	pub "github.com/yfm369/common/public_yfm"
 )
 
 type SignalBackF func()

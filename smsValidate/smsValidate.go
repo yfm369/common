@@ -1,11 +1,11 @@
 package smscode
 
 import (
-	pub "common/public_yfm"
 	"fmt"
 	"runtime"
 
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/dysmsapi"
+	pub "github.com/yfm369/common/public_yfm"
 )
 
 const (

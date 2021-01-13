@@ -1,12 +1,13 @@
 package network
 
 import (
-	pub "common/public_yfm"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"runtime/debug"
 	"time"
+
+	pub "github.com/yfm369/common/public_yfm"
 )
 
 type HttpClientHelper struct {

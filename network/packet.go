@@ -8,8 +8,9 @@ package network
 
 import (
 	"bytes"
-	pub "common/public_yfm"
 	"encoding/binary"
+
+	pub "github.com/yfm369/common/public_yfm"
 )
 
 const (
