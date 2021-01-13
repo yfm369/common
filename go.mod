@@ -1,4 +1,4 @@
-module common
+module github.com/yfm369/common
 
 go 1.15
 

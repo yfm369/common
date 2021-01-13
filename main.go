@@ -1,8 +1,7 @@
 package main
 
 import (
-	"common/network"
-	"common/public_yfm"
+	"github.com/yfm369/common/public_yfm"
 )
 
 func main() {
