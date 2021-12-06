@@ -10,6 +10,7 @@ import (
 	"bytes"
 	"compress/zlib"
 	"crypto/md5"
+	"encoding/hex"
 	"errors"
 	"fmt"
 	"io/ioutil"
@@ -68,6 +69,12 @@ func Md5(str string) string {
 	has := md5.Sum(data)
 	//将[]byte转成16进制
 	return fmt.Sprintf("%x", has)
+}
+
+func GetMd5String(s string) string {
+	h := md5.New()
+	h.Write([]byte(s))
+	return hex.EncodeToString(h.Sum(nil))
 }
 
 func CheckPath(path string) {
